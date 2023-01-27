@@ -58,7 +58,7 @@ const Header = () => (
       whileInView={scaleVariants.whileInView}
       className="app__header-circles"
     >
-      {[images.next, images.redux, images.sanity].map((circle, index) => (
+      {[images.react, images.next, images.sanity].map((circle, index) => (
         <div className="circle-cmp app__flex" key={`circle-${index}`}>
           <img src={circle} alt="profile_bg" />
         </div>
